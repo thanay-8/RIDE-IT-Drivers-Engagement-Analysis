@@ -70,31 +70,42 @@ RIDE-IT-Drivers-Engagement-Analysis/
 
 ## 📊 Dataset
 
-The project uses two datasets.
+The project uses two datasets provided for the analysis:
 
-### Driver Dataset
+### 1. Driver Dataset
 
 Contains driver-level information such as:
 
--   Driver ID
--   Registration date
--   Driver rating
--   Gold-level count
--   Marketing preference
--   Country code
--   Service type
+- Driver ID
+- Registration date
+- Driver rating
+- Gold-level count
+- Marketing preference
+- Country code
+- Service type
 
-### Driver Activity Dataset
+### 2. Driver Activity Dataset
 
 Contains driver activity records such as:
 
--   Driver ID
--   Active date
--   Offers
--   Bookings
--   Passenger cancellations
--   Driver cancellations
--   Completed rides
+- Driver ID
+- Active date
+- Offers
+- Bookings
+- Passenger cancellations
+- Driver cancellations
+- Completed rides
+
+### Dataset Availability
+
+The complete datasets were used during the analysis and dashboard development.
+
+Due to GitHub file-size limitations, this repository contains:
+
+- `rideit_drivers_cleaned.csv` — cleaned driver dataset
+- `rideit_drivers_activity_sample.csv` — representative sample of the cleaned driver activity dataset
+
+The activity sample retains all original columns and is provided for reference and reproducibility. The complete activity dataset is not included in the repository because of its file size.
 
 ## 🐍 Python Analysis
 
